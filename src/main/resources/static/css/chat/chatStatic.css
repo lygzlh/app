@@ -2,3 +2,22 @@
     height: 50px;
     border: 1px solid red;
 }
+.left-menu{
+    width: 150px;
+    border: 1px solid bisque;
+    display: inline-block;
+    height: 100%;
+    position:absolute;
+    top:50px;
+    bottom: 0;
+    left: 0;
+}
+.right-info{
+    position: absolute;
+    display: inline-block;
+    left: 150px;
+    right: 0;
+    bottom:0;
+    top: 50px;
+    border:1px solid green;
+}
