@@ -21,3 +21,14 @@
     top: 50px;
     border:1px solid green;
 }
+.full-width{
+    width:100%;
+}
+.chat-info{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 500px;
+}

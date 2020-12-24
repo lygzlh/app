@@ -8,13 +8,31 @@
 </head>
 <body>
     <div class="top">
-        <div>聊天首页</div>
+        <nav class="nav">
+            <span class="nav-link">聊天首页</span>
+            <a class="nav-link active" href="#">我的好友</a>
+            <a class="nav-link" href="#">群聊</a>
+<!--            <a class="nav-link" href="#">Link</a>-->
+<!--            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+        </nav>
     </div>
-    <div class="left-menu">
-        <div>左侧菜单</div>
+    <div class="left-menu btn-group-vertical">
+
+
+            <div>左侧菜单</div>
+            <button type="button" class="btn btn-secondary">好友1</button>
+            <button type="button" class="btn btn-secondary">好友2</button>
+
     </div>
     <div class="right-info">
         <div>右侧信息</div>
+        <div class="chat-info"></div>
+        <div class="input-group mb-3" style="margin-left: 50px;margin-right: 50px;width: 1270px">
+            <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">发送</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
