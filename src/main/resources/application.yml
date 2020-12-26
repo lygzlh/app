@@ -16,16 +16,17 @@ spring:
   #数据库配置
   datasource:
     name: test
-    url: jdbc:mysql://localhost:3306/test
+    url: jdbc:mysql://localhost:3306/cmain
     username: root
     password: lin000
     driver-class-name: com.mysql.jdbc.Driver
 
 #mybatis配置
 mybatis:
-  mapper-locations: classpath:mybatis/*.xml
+  mapper-locations: classpath:mybatis/*.xml,classpath:mybatis/chat/*.xml
 
+#打印sql日志
 logging:
   level:
-    com.app.appmain.test.dao:  debug
+    com.app.appmain.chat.dao:  debug
 
